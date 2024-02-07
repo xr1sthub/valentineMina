@@ -1,0 +1,59 @@
+body {
+    background: url('https://i.ibb.co/VpS1YtV/frmina.png') center/cover;
+    font-family: 'Christmas and Santona', sans-serif;
+    color: #fff;
+    margin: 0; /* Remove default margin to ensure full page coverage */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set the height of the body to full viewport height */
+}
+
+.intro {
+    text-align: center;
+}
+
+.text-container {
+    padding: 20px;
+}
+
+#proposal-text {
+    font-size: 50px;
+    margin-bottom: 20px; 
+    background: linear-gradient(to right, #ffffff, #ffffff);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: wiggle 1s infinite;
+}
+
+#yes-button,
+#no-button {
+    background-color: #f35e5a;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#yes-button:hover,
+#no-button:hover {
+    background-color: #333; /* Change to your desired hover color */
+}
+
+/* New style for the No button to override margin and position */
+#no-button {
+    position: relative;
+    margin: 0; /* Remove margin to ensure smooth animation */
+}
+#yes-button {
+    background-color: #f35e5a;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px; /* Add margin to create space between buttons */
+    border-radius: 5px;
+}

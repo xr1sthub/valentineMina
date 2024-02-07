@@ -1,0 +1,76 @@
+body {
+    background: #042e4b;
+      color: #fff;
+    font: 19px/1.5 'Fira Sans Extra Condensed', Helvetica, Helvetica Neue, Arial;
+    height: 100%;
+    width: 100%;
+  }
+  
+  body, figure, image {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .intro {
+    background: url('https://i.ibb.co/VpS1YtV/frmina.png') no-repeat;
+      background-size: cover;
+      height: 100vh;
+      position: relative;
+      z-index: -1;
+  }
+  .tulips {
+      bottom: -10px;
+      left: 0;
+      overflow: hidden;
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      z-index: 1;
+  }
+  
+  .stemEnd1, .stemEnd2, .stemEnd3, .stemEnd4 {
+    visibility:hidden;
+  }
+
+
+
+  .text-container {
+    text-align: center;
+}
+
+#proposal-text {
+    font-size: 3em;
+    font-family: 'Christmas and Santona', cursive;
+    background: linear-gradient(to right, #f35e5a, #f9b1b1);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    animation: wiggle 1s infinite;
+    margin-top: 500px;
+}
+
+@keyframes wiggle {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-2px);
+    }
+    50% {
+        transform: translateX(2px);
+    }
+    75% {
+        transform: translateX(-2px);
+    }
+}
+
+#countdown-numbers {
+  font-size: 1.5em;
+    font-family: 'Christmas and Santona', cursive;
+    background: linear-gradient(to right, #f35e5a, #f9b1b1);
+    -webkit-background-clip: text;
+    color: transparent; /* Add transition for smooth color change */
+}
+
+
+
